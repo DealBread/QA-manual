@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Нейтральный фон */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Зеленый фон для шапки */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #333; /* Темный фон для навигации */
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* При наведении меняем цвет фона */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+}
+
+figcaption {
+    font-size: 1.2em;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
